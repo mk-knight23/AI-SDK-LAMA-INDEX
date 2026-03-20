@@ -1,0 +1,13 @@
+{
+  "name": "AI-SDK-LAMA-INDEX",
+  "title": "LlamaIndex Knowledge Mesh",
+  "description": "Data-ingestion and retrieval mesh for mission intelligence",
+  "topics": [
+    "llamaindex",
+    "rag",
+    "retrieval",
+    "knowledge-graph",
+    "python"
+  ],
+  "homepage": "https://mk-knight23.github.io/AI-SDK-LAMA-INDEX"
+}
