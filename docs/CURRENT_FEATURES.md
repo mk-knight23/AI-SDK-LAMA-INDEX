@@ -1,10 +1,12 @@
-# Project Brain: AI-SDK-LAMA-INDEX
+# Current Feature Inventory
 
-## Purpose
+## Repository
 
-Data-ingestion and retrieval mesh for mission intelligence.
+- Name: `AI-SDK-LAMA-INDEX`
+- SDK: LlamaIndex
+- Positioning: Data-ingestion and retrieval mesh for mission intelligence.
 
-## Current State
+## Implemented Today
 
 - Shared Agents Army mission planning.
 - FastAPI health/run API and local CLI runner.
@@ -12,14 +14,14 @@ Data-ingestion and retrieval mesh for mission intelligence.
 - Graceful unavailable-environment messaging for optional provider execution.
 - Docker, CI, pytest tests, strategy docs, and skill matrix.
 
-## Upgrade Direction
+## Not Yet Implemented
 
 - Add persistent vector-store backends.
 - Create ingestion connectors for portfolio, code, and research documents.
 - Add RAG quality evaluation and source-citation checks.
 
-## Quality Bar
+## Verification Contract
 
-- Keep the repository runnable from a fresh clone.
-- Keep generated caches and local secrets out of git.
-- Keep README, skill matrix, tests, and CI aligned with actual behavior.
+- The local runner must complete without crashing when optional SDK credentials are missing.
+- The API contract must return routing and verification fields.
+- Tests must prove mission routing and a security-focused SENTINEL route.
